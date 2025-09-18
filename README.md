@@ -10,7 +10,7 @@ This repository tracks papers, open-source projects, demos, and benchmarks to he
 
 ## 1. Survey Paper
 1. Voice Cloning: Comprehensive Survey [arxiv](https://arxiv.org/abs/2505.00579)
-
+---
 ## 2. Method Table
 
 ### 2.1 Voice Clone
@@ -27,10 +27,31 @@ This repository tracks papers, open-source projects, demos, and benchmarks to he
 | Llama-OuteTTS-1.0-1B (OuteAI) | [Huggingface](https://huggingface.co/collections/OuteAI/outetts-10-67f3f4137df2e411b1bab852) | [GitHub](https://github.com/edwko/OuteTTS) | | 2025 |
 |StyleTTS-ZS|  | [GitHub](https://github.com/yl4579/StyleTTS-ZS) | [Paper](https://aclanthology.org/2025.naacl-long.242/) | NACCL 2025 |
 
+---
+### 2.2 Metric
+Here are metrics that is related to speaker diarization.
+Given an audio file (e.g., a meeting, podcast, or interview), diarization systems:
+1. Detect speech segments.
+2. Cluster segments by speaker (without necessarily knowing who the speakers are).
+3. Label each segment with a speaker ID (e.g., Speaker 1, Speaker 2).
 
-### 2.2 Others
+
+| Model | Code | Paper | Venue | Function |
+|----------|----------|----------|----------|----------|
+|GE2E| [GitHub](https://github.com/dipjyoti92/speaker_embeddings_GE2E)| [Paper](https://arxiv.org/pdf/1710.10467)| ICASSP 2018 | speaker embeddings|
+|X-vector | [GitHub](https://github.com/manojpamk/pytorch_xvectors) [huggingface](https://huggingface.co/speechbrain/spkrec-xvect-voxceleb)| [Paper](https://www.danielpovey.com/files/2018_icassp_xvectors.pdf) | ICASSP 2018 | embeddings for speaker recognition|
+|ECAPA-TDNN | [GitHub](https://github.com/mathewcigi-hub/Speaker_verifcation_ECAPA_TDNN) [huggingface](https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb) |  [Paper](https://arxiv.org/abs/2005.07143) | INTERSPEECH 2020 | speaker characterizing embeddings |
+| Resemblyzer |  [GitHub](https://github.com/resemble-ai/Resemblyzer) | [Paper](https://arxiv.org/pdf/1710.10467) | ICASSP 2018|  computes voice embeddings and similarity scores.|
+| MUSHRA | | [Paper](https://arxiv.org/pdf/2207.00344) | 2022 | Trained models to predict human perceptual similarity scores (MUSHRA) from speaker embeddings. |
+| U3D (Ubisoft) | [GitHub](https://github.com/ubisoft/ubisoft-laforge-spkridw) | [Paper](https://arxiv.org/pdf/2507.02176)| Interspeech 2025| evaluates speakers’ dynamic rhythm patterns. Models rhythm as a distribution over unit durations, without needing phonetic annotations.| 
+|Whisper Speaker Identification (WSI)| [GitHub](https://github.com/jakariaemon/WSI) | [Paper](https://arxiv.org/pdf/2503.10446) | 2025 |repurposes the Whisper speech encoder to speaker encoder|
+|MAD Speech | [GitHub](https://github.com/MatthieuFP/MAD_Speech) | [Paper](https://aclanthology.org/2025.naacl-long.11/) | NACCL 2025| Lightweight metrics of acoustic diversity measuring five facets of acoustic diversity: voice, gender, emotion, accent, and background noise.|
+
+
+
+### 2.3 Others
 | Model | Huggingface | GitHub | Paper | Venue | Function |
 |----------|----------|----------|----------|----------|----------|
 | AudioLM |  | [GitHub](https://github.com/lucidrains/audiolm-pytorch) | [Paper](https://arxiv.org/abs/2209.03143) | 2022 | 
 | WavTokenizer | [Huggingface]() | [GitHub](https://github.com/jishengpeng/WavTokenizer) | | |
-|MAD Speech | | [GitHub](https://github.com/MatthieuFP/MAD_Speech) | [Paper](https://aclanthology.org/2025.naacl-long.11/) | NACCL 2025| Lightweight metrics of acoustic diversity measuring five facets of acoustic diversity: voice, gender, emotion, accent, and background noise.
+
