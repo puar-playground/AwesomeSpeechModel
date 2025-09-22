@@ -13,7 +13,7 @@ This repository tracks papers, open-source projects, demos, and benchmarks to he
 ---
 ## 2. Method Table
 
-### 2.1 Voice Clone
+### 2.1. Voice Clone
 
 | Model | Huggingface | GitHub | Paper | Venue | Type |
 |----------|----------|----------|----------|----------|----------|
@@ -26,9 +26,10 @@ This repository tracks papers, open-source projects, demos, and benchmarks to he
 | WhisperSpeech | [Huggingface](https://huggingface.co/WhisperSpeech/WhisperSpeech) |  | | 2023 |
 | Llama-OuteTTS-1.0-1B (OuteAI) | [Huggingface](https://huggingface.co/collections/OuteAI/outetts-10-67f3f4137df2e411b1bab852) | [GitHub](https://github.com/edwko/OuteTTS) | | 2025 |
 |StyleTTS-ZS|  | [GitHub](https://github.com/yl4579/StyleTTS-ZS) | [Paper](https://aclanthology.org/2025.naacl-long.242/) | NACCL 2025 |
+|Qwen3 TTS | [Huggingface](https://huggingface.co/spaces/Qwen/Qwen3-TTS-Demo)  | | |
 
 ---
-### 2.2 Metric
+### 2.2. Metric
 Here are metrics that is related to speaker diarization.
 Given an audio file (e.g., a meeting, podcast, or interview), diarization systems:
 1. Detect speech segments.
@@ -49,9 +50,19 @@ Given an audio file (e.g., a meeting, podcast, or interview), diarization system
 
 
 
-### 2.3 Others
+### 2.3. Others
 | Model | Huggingface | GitHub | Paper | Venue | Function |
 |----------|----------|----------|----------|----------|----------|
 | AudioLM |  | [GitHub](https://github.com/lucidrains/audiolm-pytorch) | [Paper](https://arxiv.org/abs/2209.03143) | 2022 | 
 | WavTokenizer | [Huggingface]() | [GitHub](https://github.com/jishengpeng/WavTokenizer) | | |
 
+---
+## 3. Voice Data
+### Copilot Suggestions for Demo:
+news-style clarity, consider:
+**Tom Brokaw** or **Diane Sawyer** for general news.
+**Scott Van Pelt** or **Linda Cohn** for sports news.
+
+High energy and personality, go with:
+**Chris Berman** or **Stuart Scott** for NFL-style delivery.
+**Howard Cosell** for a vintage, dramatic tone.
