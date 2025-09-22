@@ -24,9 +24,11 @@ This repository tracks papers, open-source projects, demos, and benchmarks to he
 | VALL-E-X | [Huggingface](https://huggingface.co/spaces/Plachta/VALL-E-X) | [GitHub](https://github.com/Plachtaa/VALL-E-X) | [Paper](https://arxiv.org/abs/2303.03926) | 2023 |
 | Bark (Suno) | [Huggingface](https://huggingface.co/suno/bark) | [GitHub](https://github.com/suno-ai/bark) | | 2023 |
 | WhisperSpeech | [Huggingface](https://huggingface.co/WhisperSpeech/WhisperSpeech) |  | | 2023 |
+|OpenVoice| []() |[GitHub](https://github.com/myshell-ai/OpenVoice) | [Paper](https://arxiv.org/abs/2312.01479) | 2023 |
 | Llama-OuteTTS-1.0-1B (OuteAI) | [Huggingface](https://huggingface.co/collections/OuteAI/outetts-10-67f3f4137df2e411b1bab852) | [GitHub](https://github.com/edwko/OuteTTS) | | 2025 |
 |StyleTTS-ZS|  | [GitHub](https://github.com/yl4579/StyleTTS-ZS) | [Paper](https://aclanthology.org/2025.naacl-long.242/) | NACCL 2025 |
 |Qwen3 TTS | [Huggingface](https://huggingface.co/spaces/Qwen/Qwen3-TTS-Demo)  | | |
+
 
 ---
 ### 2.2. Metric
